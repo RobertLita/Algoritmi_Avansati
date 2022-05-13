@@ -1,5 +1,3 @@
-# from test_orientare import test_orientare
-
 def determinant(a11, a12, a13, a21, a22, a23, a31, a32, a33):
     return a11 * a22 * a33 + a21 * a32 * a13 + a12 * a23 * a31 - a13 * a22 * a31 - a11 * a32 * a23 - a12 * a21 * a33
 
